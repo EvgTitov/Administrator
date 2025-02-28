@@ -15,7 +15,7 @@ echo The new computer name will be: %comp_name%
 wmic computersystem where name="%computername%" rename "%comp_name%"
 pause
 
-cmd /c "msg * "Restart you computer!""
+cmd /c "msg * "Restart you computer please!""
 
 
 
