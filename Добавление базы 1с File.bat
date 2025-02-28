@@ -14,7 +14,7 @@ if not %m%==%n% (
  )
 for %%i in (
 	"[Название базы 1с]"
-	"Connect=Srvr="Ваш сервер";Ref="Имя базы" "
+	"Connect=File="Путь до базы" "
  ) do (
  echo %%~i>>"%AppData%\1C\1CEStart\ibases.v8i"
  )
