@@ -13,8 +13,8 @@ if not %m%==%n% (
  echo.>>"%AppData%\1C\1CEStart\ibases.v8i"
  )
 for %%i in (
-	"[Документооборот]"
-	"Connect=Srvr="1c:1741";Ref="DOC" "
+	"[Название базы]"
+	"Connect=Srvr="Ваш сервер";Ref="Имя базы" "
  ) do (
  echo %%~i>>"%AppData%\1C\1CEStart\ibases.v8i"
  )
